@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Paulo Vieira - Portfólio Profissional</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h2>João Paulo Vieira</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#experience" class="nav-link">Experiência</a></li>
+                <li><a href="#skills" class="nav-link">Competências</a></li>
+                <li><a href="#certifications" class="nav-link">Certificações</a></li>
+                <li><a href="#indicators" class="nav-link">Indicadores</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1 class="hero-title">João Paulo Vieira</h1>
+            <p class="hero-subtitle">Supervisor de Manutenção | Eletrotécnico | Gestão de Equipes</p>
+            <p class="hero-description">
+                Profissional com mais de 10 anos de experiência em supervisão de manutenção industrial, 
+                portuária e civil, especializado em gestão de equipes e otimização de processos.
+            </p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary">Entre em Contato</a>
+                <a href="#" id="download-cv" class="btn btn-secondary">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat" data-aos="fade-up" data-aos-delay="100">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Anos de Experiência</span>
+                </div>
+                <div class="stat" data-aos="fade-up" data-aos-delay="200">
+                    <span class="stat-number">25+</span>
+                    <span class="stat-label">Promoções Realizadas</span>
+                </div>
+                <div class="stat" data-aos="fade-up" data-aos-delay="300">
+                    <span class="stat-number">25%</span>
+                    <span class="stat-label">Redução de Paradas</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h3>Perfil Profissional</h3>
+                    <p>
+                        Profissional com mais de 10 anos de experiência em supervisão de manutenção industrial, 
+                        portuária e civil, com comprovada expertise em gestão de equipes próprias e terceirizadas. 
+                        Sólida vivência em planejamento e implantação de programas de manutenção, controle de 
+                        custos operacionais, gestão de sobressalentes e indicadores de desempenho.
+                    </p>
+                    <p>
+                        Experiência prática com equipamentos de movimentação de cargas, sistemas hidráulicos, 
+                        diagramas mecânicos e elétricos e procedimentos SSMA. Formação técnica robusta com 
+                        graduação em andamento em Engenharia Elétrica e certificações em SAP-PM, Lean Six Sigma e Normas ISO.
+                    </p>
+                </div>
+                <div class="about-info" data-aos="fade-left">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Cubatão – SP</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(13) 99733-5365</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>joaopaulo.vieira.eletrica@outlook.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://linkedin.com/in/joaopaulov" target="_blank">linkedin.com/in/joaopaulov</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Experiência Profissional</h2>
+            
+            <!-- Filter Buttons -->
+            <div class="filter-buttons" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">Todas</button>
+                <button class="filter-btn" data-filter="eletrica">Elétrica</button>
+                <button class="filter-btn" data-filter="gestao">Gestão</button>
+                <button class="filter-btn" data-filter="manutencao">Manutenção</button>
+                <button class="filter-btn" data-filter="supervisao">Supervisão</button>
+            </div>
+
+            <!-- Timeline -->
+            <div class="timeline" data-aos="fade-up" data-aos-delay="200">
+                <div class="timeline-item" data-category="gestao manutencao supervisao">
+                    <div class="timeline-date">Jan 2025 - Mai 2025</div>
+                    <div class="timeline-content">
+                        <h3>Encarregado de Manutenção</h3>
+                        <h4>Manserv (TIPLAM, Santos-SP)</h4>
+                        <ul>
+                            <li>Coordenação e supervisão de equipe de manutenção elétrica em terminal portuário</li>
+                            <li>Elaboração de relatórios técnicos de desempenho dos processos de manutenção</li>
+                            <li>Programação e monitoramento de manutenções em correias transportadoras e subestações</li>
+                            <li>Gestão de recursos e prazos para execução eficiente de tarefas de manutenção</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-category="gestao manutencao supervisao eletrica">
+                    <div class="timeline-date">Mai 2023 - Jan 2025</div>
+                    <div class="timeline-content">
+                        <h3>Supervisor de Manutenção/Eletricista Líder</h3>
+                        <h4>In Haus Industrial (TIPLAM, Santos-SP)</h4>
+                        <ul>
+                            <li>Coordenação integral do contrato nas esferas operacional e administrativa</li>
+                            <li>Supervisão de atividades multidisciplinares (elétrica, mecânica, hidráulica, utilidades)</li>
+                            <li>Gestão de equipes próprias e terceirizadas com foco em resultados</li>
+                            <li>Elaboração mensal de relatórios e Boletins de Medição (BM) via SAP</li>
+                            <li>Conquista: Redução de 25% nas paradas não programadas através de melhorias nos processos</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-category="eletrica manutencao">
+                    <div class="timeline-date">Nov 2022 - Mai 2023</div>
+                    <div class="timeline-content">
+                        <h3>Técnico Sr. Elétrica e Instrumentação Onshore/Offshore</h3>
+                        <h4>Concremat Engenharia (TRSP, Santos/Cubatão-SP)</h4>
+                        <ul>
+                            <li>Controle e execução das atividades de manutenção elétrica e automação</li>
+                            <li>Elaboração de relatórios técnicos e documentação de manutenção</li>
+                            <li>Participação no planejamento das atividades de manutenção</li>
+                            <li>Leitura e interpretação de diagramas técnicos</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-category="gestao manutencao supervisao eletrica">
+                    <div class="timeline-date">Fev 2021 - Nov 2022</div>
+                    <div class="timeline-content">
+                        <h3>Supervisor de Manutenção Elétrica/Eletricista Líder</h3>
+                        <h4>Zortea Construções (Porto, Santos-SP)</h4>
+                        <ul>
+                            <li>Coordenação de atividades de manutenção e gestão de suprimentos</li>
+                            <li>Elaboração de relatórios de desempenho e identificação de oportunidades de melhoria</li>
+                            <li>Desenvolvimento de soluções para otimização da eficiência operacional</li>
+                            <li>Gestão de equipe elétrica e planejamento de manutenção em equipamentos diversos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Competências Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3>Supervisão e Gestão de Manutenção</h3>
+                    <ul>
+                        <li>Supervisão de equipes próprias e terceirizadas</li>
+                        <li>Elaboração de programas de manutenção preventiva e corretiva</li>
+                        <li>Controle de qualidade dos serviços</li>
+                        <li>Gestão de recursos técnicos</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Controle de Custos e Indicadores</h3>
+                    <ul>
+                        <li>Acompanhamento de custos orçamentários</li>
+                        <li>Proposição de soluções para desvios</li>
+                        <li>Monitoramento de KPIs</li>
+                        <li>Melhoria contínua de processos</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Conhecimento Técnico em Equipamentos</h3>
+                    <ul>
+                        <li>Equipamentos de movimentação portuária</li>
+                        <li>Diagramas mecânicos, elétricos e hidráulicos</li>
+                        <li>Sistemas hidráulicos e pneumáticos</li>
+                        <li>Manutenção de subestações</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Segurança e Conformidade</h3>
+                    <ul>
+                        <li>Procedimentos SSMA</li>
+                        <li>Conformidade com Normas ISO</li>
+                        <li>Treinamento em segurança do trabalho</li>
+                        <li>Certificações NR ativas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Certificações e Qualificações</h2>
+            <div class="certifications-grid">
+                <div class="certification-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="cert-header">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Bacharelado em Engenharia Elétrica</h3>
+                        <button class="expand-btn">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div class="cert-details">
+                        <p><strong>Instituição:</strong> UNIFATECIE</p>
+                        <p><strong>Status:</strong> Cursando – 4º semestre</p>
+                        <p><strong>Previsão:</strong> 2026</p>
+                    </div>
+                </div>
+
+                <div class="certification-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="cert-header">
+                        <i class="fas fa-certificate"></i>
+                        <h3>SAP para Planejadores e Inspetores</h3>
+                        <button class="expand-btn">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div class="cert-details">
+                        <p><strong>Instituição:</strong> Ynova Treinamentos</p>
+                        <p><strong>Área:</strong> Manutenção</p>
+                        <p><strong>Status:</strong> Concluído</p>
+                    </div>
+                </div>
+
+                <div class="certification-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="cert-header">
+                        <i class="fas fa-medal"></i>
+                        <h3>Green Belt Lean Six Sigma</h3>
+                        <button class="expand-btn">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div class="cert-details">
+                        <p><strong>Instituição:</strong> Método CPA</p>
+                        <p><strong>Tipo:</strong> Certificado Internacional</p>
+                        <p><strong>Status:</strong> Concluído</p>
+                    </div>
+                </div>
+
+                <div class="certification-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="cert-header">
+                        <i class="fas fa-award"></i>
+                        <h3>Black Belt Lean Six Sigma</h3>
+                        <button class="expand-btn">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div class="cert-details">
+                        <p><strong>Instituição:</strong> Método CPA</p>
+                        <p><strong>Tipo:</strong> Certificado Internacional</p>
+                        <p><strong>Status:</strong> Cursando</p>
+                    </div>
+                </div>
+
+                <div class="certification-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="cert-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Comandos Elétricos e CLP</h3>
+                        <button class="expand-btn">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div class="cert-details">
+                        <p><strong>Instituição:</strong> SENAI</p>
+                        <p><strong>Carga Horária:</strong> 160h</p>
+                        <p><strong>Status:</strong> Concluído</p>
+                    </div>
+                </div>
+
+                <div class="certification-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="cert-header">
+                        <i class="fas fa-hard-hat"></i>
+                        <h3>Normas de Segurança</h3>
+                        <button class="expand-btn">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div class="cert-details">
+                        <p><strong>Certificações:</strong> NR10, NR12, NR33, NR35, NR18, NR20, NR34, NR06</p>
+                        <p><strong>Status:</strong> Ativas</p>
+                        <p><strong>Área:</strong> Segurança do Trabalho</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Indicators Section -->
+    <section id="indicators" class="indicators">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Indicadores de Performance</h2>
+            <div class="indicators-grid">
+                <div class="indicator-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="indicator-icon">
+                        <i class="fas fa-arrow-down"></i>
+                    </div>
+                    <div class="indicator-content">
+                        <div class="indicator-number" data-target="25">0</div>
+                        <div class="indicator-unit">%</div>
+                        <div class="indicator-label">Redução de Paradas Não Programadas</div>
+                        <div class="indicator-description">Terminal TIPLAM-VLi</div>
+                    </div>
+                    <div class="indicator-progress">
+                        <div class="progress-bar" data-progress="25"></div>
+                    </div>
+                </div>
+
+                <div class="indicator-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="indicator-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="indicator-content">
+                        <div class="indicator-number" data-target="30">0</div>
+                        <div class="indicator-unit">%</div>
+                        <div class="indicator-label">Redução de Inconformidades</div>
+                        <div class="indicator-description">Terminal TIPLAM-VLi</div>
+                    </div>
+                    <div class="indicator-progress">
+                        <div class="progress-bar" data-progress="30"></div>
+                    </div>
+                </div>
+
+                <div class="indicator-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="indicator-icon">
+                        <i class="fas fa-ship"></i>
+                    </div>
+                    <div class="indicator-content">
+                        <div class="indicator-number" data-target="50">0</div>
+                        <div class="indicator-unit">%</div>
+                        <div class="indicator-label">Entrega de Obras Portuárias</div>
+                        <div class="indicator-description">Hidrovias e Terminal XXXIX - Porto de Santos</div>
+                    </div>
+                    <div class="indicator-progress">
+                        <div class="progress-bar" data-progress="50"></div>
+                    </div>
+                </div>
+
+                <div class="indicator-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="indicator-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="indicator-content">
+                        <div class="indicator-number" data-target="25">0</div>
+                        <div class="indicator-unit">+</div>
+                        <div class="indicator-label">Promoções Realizadas</div>
+                        <div class="indicator-description">Eletricistas, Instrumentistas, Mecânicos, Líderes e Encarregados</div>
+                    </div>
+                    <div class="indicator-progress">
+                        <div class="progress-bar" data-progress="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Entre em Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Vamos conversar sobre oportunidades</h3>
+                    <p>
+                        Estou sempre aberto a discutir novas oportunidades e desafios na área de manutenção industrial. 
+                        Entre em contato comigo através dos canais abaixo ou utilize o formulário.
+                    </p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telefone</h4>
+                                <p>(13) 99733-5365</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>joaopaulo.vieira.eletrica@outlook.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/joaopaulov</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localização</h4>
+                                <p>Cubatão – SP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" data-aos="fade-left" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome Completo</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Empresa</label>
+                        <input type="text" id="company" name="company">
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Assunto</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Selecione um assunto</option>
+                            <option value="oportunidade">Oportunidade de Trabalho</option>
+                            <option value="consultoria">Consultoria</option>
+                            <option value="networking">Networking</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Enviar Mensagem
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>João Paulo Vieira</h3>
+                    <p>Supervisor de Manutenção | Eletrotécnico | Gestão de Equipes</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://linkedin.com/in/joaopaulov" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:joaopaulo.vieira.eletrica@outlook.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+5513997335365">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 João Paulo Vieira. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+

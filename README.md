@@ -119,7 +119,7 @@ O código JavaScript está bem estruturado e comentado para facilitar extensões
 **João Paulo Vieira**
 - 📧 Email: joaopaulo.vieira.eletrica@outlook.com
 - 📱 Telefone: (13) 99733-5365
-- 🔗 LinkedIn: [linkedin.com/in/joaopaulov](https://linkedin.com/in/joaopaulov91)
+- 🔗 LinkedIn: [linkedin.com/in/joaopaulov91](https://linkedin.com/in/joaopaulov91)
 - 📍 Localização: Cubatão – SP
 
 ## 📄 Licença
